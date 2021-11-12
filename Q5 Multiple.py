@@ -1,7 +1,7 @@
 import cvxpy as cp
 import numpy as np
 import scipy
-
+#Same as Q3.py, here we just used for loop to individually find 3 different s and x values and stack them to form the final image
 for i in range(0,3):
   C=np.load("/content/C{}.npy".format(i))
   y=np.load("/content/y{}.npy".format(i))
