@@ -1,3 +1,8 @@
+#This code was already shared with us. 
+#We updated the file location.
+#we changed the PIL mode to RGB which generated 3 different images
+#and used a for loop to generate A_inv, y and C for each image individually (R,G,B).
+
 import numpy as np
 import matplotlib.pyplot as plt
 import scipy.fftpack as spfft
